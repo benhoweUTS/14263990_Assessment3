@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class getPellet : MonoBehaviour
 {
-
     public Animator pelletAnimator;
     public AudioSource eatPellet;
     // Start is called before the first frame update

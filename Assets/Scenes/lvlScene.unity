@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 300927880}
   - component: {fileID: 300927879}
   - component: {fileID: 300927878}
-  - component: {fileID: 300927877}
+  - component: {fileID: 300927881}
   m_Layer: 0
   m_Name: powerPellet demo
   m_TagString: Untagged
@@ -394,20 +394,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &300927877
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300927876}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8e4ce085cb09b74daa4257c43c9fd07, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pelletAnimator: {fileID: 300927878}
-  eatPellet: {fileID: 594866354}
 --- !u!95 &300927878
 Animator:
   serializedVersion: 5
@@ -496,6 +482,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &300927881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300927876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a496a01eb0e1dcd48a5735240d69dcdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pelletAnimator: {fileID: 300927878}
+  eatPellet: {fileID: 594866354}
 --- !u!1 &320209059
 GameObject:
   m_ObjectHideFlags: 0
@@ -2659,6 +2659,7 @@ GameObject:
   - component: {fileID: 1515725201}
   - component: {fileID: 1515725200}
   - component: {fileID: 1515725199}
+  - component: {fileID: 1515725202}
   m_Layer: 0
   m_Name: pacStudent demo
   m_TagString: Untagged
@@ -2753,6 +2754,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1515725202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515725198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adcfd1ed89d33e843bd017f28a95b445, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pacAnimator: {fileID: 1515725199}
 --- !u!1 &1553274254
 GameObject:
   m_ObjectHideFlags: 0
@@ -3900,6 +3914,7 @@ GameObject:
   - component: {fileID: 2060355739}
   - component: {fileID: 2060355741}
   - component: {fileID: 2060355740}
+  - component: {fileID: 2060355742}
   m_Layer: 0
   m_Name: ghost demo
   m_TagString: Untagged
@@ -3994,3 +4009,16 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2060355742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2060355738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b3f5cae5ff8c1549a02ba133eafc264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostAnimator: {fileID: 2060355740}
